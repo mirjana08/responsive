@@ -1,0 +1,16 @@
+body {width:80%;padding:0px;margin:0 auto;font-family:verdana;font-size: 18px;
+    color:rgb(56, 55, 55);text-shadow: 0px 0px 1px;}
+h3{font-weight: lighter;}
+#main {display:flex;justify-content:left;flex-wrap: wrap;}
+.thumb {border-radius: 5px; box-sizing: border-box; border-style: groove; width:180px; height:150px;margin:0 20px 20px 0px;text-align: center;}
+.thumb img {display:block; height:80%; width:100%;background:lightskyblue;}
+p{font-weight:lighter;}
+@media and (min-width:415px) and (max-width:768px) {
+    #footer p{font-size:20px;}
+}
+@media screen and (max-width:414px) {
+    .thumb{width:200px; height:160px;} 
+#header{text-align:center;} 
+#main {justify-content: space-around;}
+#footer p{font-size: 22px;}
+}
